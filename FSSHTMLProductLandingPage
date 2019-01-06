@@ -1,0 +1,50 @@
+<div id="page-wrapper">
+  <header id="header"> <!--US#1-->
+    <div class="header-img"> <!--US#2-->
+      <img id="logo-img" src="https://img.freepik.com/free-vector/abstract-outlined-cube-logo_1061-175.jpg?size=338&ext=jpg" alt="Cube company logo" />
+    </div>
+    <nav id="nav-bar"> <!--US#3--><!--US#4--><!--US#5-->
+      <ul>
+        <li><a class="nav-link" href="#programming-languages">Programming Languages</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li><a class="nav-link" href="#contact-us">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="containers">
+    <section id="programming-languages">
+      <h2>Intro to Programming Languages: A Guide to which language to learn</h2>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mvA6YuJ6c_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--US#6-->
+    </section>
+  </div>
+
+  <div class="containers">
+    <section id="pricing">
+      <h2>Pricing</h2>
+    </section>
+  </div>
+
+  <div class="containers">
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit"> <!--US#7-->
+        <input name="inquiry" id="inquiry" type="textarea" placeholder="Enter your inquiry here required"></input> <!--US#8-->
+        <input name="email" id="email" type="email" placeholder="Enter your email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></input> <!--US#9 & 10-->
+        <button id="submit" type="submit" value="Submit" class="btn"></button> <!--US#11-->
+      </form>
+    </section>
+  </div>
+
+  <div>
+  <footer>
+   <ul>
+     <li><a href="#">Privacy</a></li>
+     <li><a href="#">Terms</a></li>
+     <li><a href="#">Contact</a></li>
+   </ul>
+   <span>Content on this page is not original and is used as a learning tool.</span>
+ </footer>
+ </div>
+
+</div>
