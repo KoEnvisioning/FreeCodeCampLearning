@@ -1,0 +1,63 @@
+
+/*format header image - logo to be 100px*/
+header img {
+  height: 50px;
+}
+
+/*format the navigation bar */
+header {
+  font-size: 20px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px; /*designates the height of the header to be the same as the height of the image*/
+  display: flex; /*force the display to be wrapped*/
+  align-items: center; /*aligns all text to the center based on vertical comparison*/
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+
+  margin: 0 10px; /*spaces out the items within the list*/
+}
+
+/*position the body text so that it is below the navigation bar*/
+/*suffices for US#13*/
+body {
+  margin-top: 50px;
+  padding: 50px;
+  background-color: gray;
+  color: black;
+}
+
+
+/*footer declarations*/
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    
+    li {
+      padding: 0 10px;
+    }
+  }
+
+  span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+}
+
+</style>
