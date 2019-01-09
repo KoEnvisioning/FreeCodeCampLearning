@@ -15,6 +15,9 @@ header {
   height: 50px; /*designates the height of the header to be the same as the height of the image*/
   display: flex; /*force the display to be wrapped*/
   align-items: center; /*aligns all text to the center based on vertical comparison*/
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+  } /*Suffices for US#14*/
 }
 
 header * {
@@ -45,7 +48,7 @@ footer {
   ul {
     display: flex;
     justify-content: flex-end;
-    
+
     li {
       padding: 0 10px;
     }
